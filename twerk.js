@@ -2,7 +2,7 @@ var twerkjs = function (evt) {
   var self = this;
   this.playAudio = function(position){
       var player = self.getPlayer();
-        , audio = self.getAudioFor(player);
+      var audio = self.getAudioFor(player);
       player.src = audio;
       player.play();
    };
